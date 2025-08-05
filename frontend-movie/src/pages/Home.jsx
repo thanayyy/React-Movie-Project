@@ -40,6 +40,7 @@ function Home() {
       setLoading(false);
     }
   };
+  
   return (
     <div className="home">
       <form onSubmit={handleSearch} className="search-form">
